@@ -26,11 +26,9 @@ const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTi
           </Link>
         </div>
   
-        <Carousel>
         <img 
-          src={urlFor(image)} className="https://cdn.sanity.io/images/rodmjlm9/production/2feda07ebe25b3e79302d30762050e48344a258a-300x168.jpg"
+          src={urlFor(image)} className="footer-banner-image"
         />
-       </Carousel> 
       </div>
       
     </div>
